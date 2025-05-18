@@ -1,0 +1,17 @@
+name: mlflow-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - scikit-learn
+  - pyarrow
+  - matplotlib
+  - pip
+  - mlflow
+  - protobuf==3.20.3
+  - ipykernel
+  - seaborn
+  - xgboost
+  - hyperopt
